@@ -1,3 +1,9 @@
+/* Se utiliza display: inline-block; se usa para que un elemento se coloque al lado de otros (en la misma línea), pero que igual pueda tener tamaño y espacio propio. */
+
+/* box-shadow se usa para agregar una sombra alrededor de un elemento, haciendo que parezca elevado o con profundidad. */
+
+/* white-space: nowrap; se usa para que el texto no se corte ni baje de línea, aunque sea muy largo. Todo queda en una sola línea. */
+
 *{
     margin: 0;
     padding: 0;
@@ -87,11 +93,11 @@ footer {
     text-align: center;
     
     /* Poner el footer al final de la pagina sin flexbox */
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    line-height: 20px;
+    position: fixed;       /* Fija el elemento en la pantalla, sin importar el scroll */
+    bottom: 0;             /* Lo coloca pegado al borde inferior de la ventana */
+    left: 0;               /* Lo alinea al borde izquierdo de la ventana */
+    width: 100%;           /* Hace que ocupe todo el ancho de la pantalla */
+    line-height: 20px;     /* Establece la altura de cada línea de texto en 20px */
 }
 
 footer p {
