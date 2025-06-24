@@ -5,11 +5,11 @@
 
 body {
     font-family: "Quicksand", sans-serif;
-    background-color: rgb(220, 220, 179);
+    background-color: #FAEDCA;
 }
 
 a:hover { /* Cuando pasas el mouse por arriba cambia de color */
-    color: #cc6600;
+    color: #FE5D26;
     font-weight: bold;
     cursor: pointer;
 }
@@ -20,7 +20,7 @@ header {
     margin: 10px;
     border-radius: 20px;
     text-align: center;
-    border: 2px solid grey; 
+    border: 2px solid #C1DBB3; 
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); /* Sobra del recuadro */
 }
 
@@ -54,7 +54,7 @@ main h1 { /* titulo menu */
 
 main hr { /* linea */
   border: none;
-  border-top: 1px solid #cc6600;
+  border-top: 1px solid #FE5D26;
 }
 
 main p{ /* Seleccion de paginas */
@@ -79,7 +79,7 @@ nav b{
 }
 
 footer {
-    background-color: rgb(202, 202, 157) ;
+    background-color: #F2C078;
     text-align: center;
     
     /* Poner el footer al final de la pagina sin flexbox */
