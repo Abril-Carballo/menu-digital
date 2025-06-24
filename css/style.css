@@ -114,11 +114,11 @@ footer p {
 
 /* DISENIO DE PLATOS */
 .plato {
-  width: 700px;
+  width: 800px;
   margin: 20px auto;
   padding: 15px;
   background-color: white;
-  border: 1px solid #ccc;
+  border: 1px solid #C1DBB3;
   border-radius: 10px;
 }
 
@@ -128,18 +128,20 @@ footer p {
 }
 
 .img_plato {
-  height: 100px;
+  height: 150px;
   vertical-align: top;
   display: inline-block;
   margin-right: 15px;
+  margin-top: 10px;
   border-radius: 8px;
 }
 
 .info_plato {
   display: inline-block;
-  width: 550px;
+  width: 650px;
   vertical-align: top;
   white-space: normal; /* permite que el texto salte de línea */
+  margin-top: 20px;
 }
 
 .precio {
