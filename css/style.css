@@ -112,13 +112,39 @@ footer p {
     font-size: 40px;
 }
 
+/* DISENIO DE PLATOS */
 .plato {
-    margin: 10px;
-    width: 700px;
+  width: 700px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
+.fila_plato {
+  display: inline-block;
+  white-space: nowrap; /* impide que el contenido se baje */
+}
 
+.img_plato {
+  height: 100px;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 15px;
+  border-radius: 8px;
+}
 
+.info_plato {
+  display: inline-block;
+  width: 550px;
+  vertical-align: top;
+  white-space: normal; /* permite que el texto salte de línea */
+}
+
+.precio {
+    color: #FE5D26;
+}
 
 
 
