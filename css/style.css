@@ -8,6 +8,12 @@ body {
     background-color: rgb(220, 220, 179);
 }
 
+a:hover { /* Cuando pasas el mouse por arriba cambia de color */
+    color: #cc6600;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 header {
     background-color: white;
     padding: 7vh;
@@ -18,29 +24,74 @@ header {
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); /* Sobra del recuadro */
 }
 
-header h1 {
-    margin-bottom: 10px;
+.logo-titulo {
+  text-align: center; /* centra todo el bloque */
+  white-space: nowrap; /* evita que se salten de línea */
 }
 
-main h1 {
+.logo {
+  height: 50px;
+  display: inline-block; /* para que imagen y texto estén uno al lado del otro. */
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.titulo {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  margin: 0;
+}
+
+main h1 { /* titulo menu */
     font-family: "Dancing Script", cursive;
     padding: 10px;
-    font-size: 48px;
-    margin-left: 15px;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
 }
 
-main hr {
+main hr { /* linea */
   border: none;
-  border-top: 1px solid black;
+  border-top: 1px solid #cc6600;
 }
- nav {
-    margin: 10px;
- }
 
- nav a{
+main p{ /* Seleccion de paginas */
+    margin: 10px;
+    font-size: 20px;
+}
+
+nav {
+    margin: 10px;
+}
+
+nav a{ /* opciones de platos */
     color: black;
     text-decoration: none;
     line-height: 40px;
- }
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+nav b{
+    padding-left: 25px;
+}
+
+footer {
+    background-color: rgb(202, 202, 157) ;
+    text-align: center;
+    
+    /* Poner el footer al final de la pagina sin flexbox */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 20px;
+}
+
+footer p {
+    padding: 5px;
+}
 
 
