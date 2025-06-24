@@ -96,6 +96,26 @@ footer p {
 
 /* PAGINA PLATO PRINCIPAL */
 
+.paginas {
+    padding: 20px;
+    background-color:white;
+}
+
+.vuelta {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo_paginas {
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.plato {
+    margin: 10px;
+    width: 700px;
+}
 
 
 
