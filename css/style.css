@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: rgb(220, 220, 179);
+}
+
+header {
+    background-color: white;
+    padding: 7vh;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid grey; 
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); /* Sobra del recuadro */
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main h1 {
+    font-family: "Dancing Script", cursive;
+    padding: 10px;
+    font-size: 48px;
+    margin-left: 15px;
+}
+
+main hr {
+  border: none;
+  border-top: 1px solid black;
+}
+ nav {
+    margin: 10px;
+ }
+
+ nav a{
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+ }
+
+
