@@ -14,6 +14,10 @@ a:hover { /* Cuando pasas el mouse por arriba cambia de color */
     cursor: pointer;
 }
 
+footer a{
+  color: black;
+}
+
 header {
     background-color: white;
     padding: 7vh;
