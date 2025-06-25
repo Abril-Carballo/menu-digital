@@ -28,6 +28,3 @@ Se utiliza una estructura semántica en HTML con clases específicas para una pr
 El diseño está pensado para ser limpio y responsivo, manteniendo el foco en la experiencia visual del usuario. Las imágenes se presentan al costado del texto gracias al uso de contenedores con estilo flex, y cada bloque de plato está claramente separado para facilitar la lectura.
 
 El diseño está pensado para ser limpio y responsivo, manteniendo el foco en la experiencia visual del usuario. Las imágenes se presentan al costado del texto gracias al uso de contenedores con estilo `flex`, y cada bloque de plato está claramente separado para facilitar la lectura.
-
-## 📂 Estructura del proyecto
-
