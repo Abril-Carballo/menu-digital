@@ -4,7 +4,7 @@ Este proyecto es una página web que simula el **menú digital** del restaurante
 
 ## 🔗 Ver en línea
 
-> 📎 
+> 📎 [Ver Menú Digital en GitHub Pages](https://abril-carballo.github.io/menu-digital/)
 
 ## 🧑‍🍳 ¿Cómo funciona?
 
