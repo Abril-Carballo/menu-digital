@@ -1,24 +1,30 @@
-# 🌾 ¡Bienvenidos a Grano Libre!
+# 📋 Menú Digital - Grano Libre
 
-Somos un restaurante **100% libre de gluten**, creado para que disfrutes de cada plato con total confianza, sin resignar sabor ni variedad. En **Grano Libre**, la cocina consciente, rica y segura es nuestra prioridad.
+Este proyecto es una página web que simula el **menú digital** del restaurante **Grano Libre**, diseñada para mostrar de forma clara y visual los platos, bebidas y postres disponibles, con imágenes representativas, descripciones y precios.
 
-## 🥘 Nuestra Propuesta
+## 🔗 Ver en línea
 
-En nuestro menú vas a encontrar una cuidada selección de:
+> 📎 [Ver Menú Digital en GitHub Pages](https://abril-carballo.github.io/menu-digital/)
 
-🍽️ **Platos principales:** Preparaciones libres de gluten, sabrosas y variadas, ideales para todos los gustos.
+## 🧑‍🍳 ¿Cómo funciona?
 
-🥤 **Bebidas:** Opciones clásicas y refrescantes como la línea completa de gaseosas Coca-Cola.
+La página organiza cada ítem del menú en secciones diferenciadas, donde cada plato incluye:
 
-🍰 **Postres:** Delicias dulces aptas para celíacos, para disfrutar sin preocupaciones (si están incluidos en la carta).
+- ✅ Nombre del plato  
+- ✅ Imagen ilustrativa  
+- ✅ Descripción detallada de los ingredientes o preparación  
+- ✅ Precio  
 
-Todos nuestros productos están elaborados con ingredientes libres de TACC, en un entorno seguro para personas celíacas.
+Se utiliza una estructura semántica en HTML con clases específicas para una presentación visual más atractiva y moderna.
 
-## 🪑 El Ambiente
+## 🛠️ Tecnologías utilizadas
 
-**Grano Libre** es un lugar cálido y relajado, pensado para que cada comida sea un momento de disfrute. Ya sea para almorzar, cenar o simplemente compartir algo rico, acá te vas a sentir cómodo y bienvenido.
+- **HTML:** Para la estructura principal de la página, respetando una organización clara y accesible.  
+- **CSS:** Para el diseño visual.  
+- **Imágenes optimizadas:** Se incluyen fotos ilustrativas creadas con IA para representar cada plato y bebida.
 
-## 📞 Contacto
+## 🎨 Estilo y diseño
 
-Seguinos en nuestras redes **@Grano\_Libre** o comunicate al
-📱 [456789](tel:456789)
+El diseño está pensado para ser limpio y responsivo, manteniendo el foco en la experiencia visual del usuario. Las imágenes se presentan al costado del texto gracias al uso de contenedores con estilo flex, y cada bloque de plato está claramente separado para facilitar la lectura.
+
+El diseño está pensado para ser limpio y responsivo, manteniendo el foco en la experiencia visual del usuario. Las imágenes se presentan al costado del texto gracias al uso de contenedores con estilo `flex`, y cada bloque de plato está claramente separado para facilitar la lectura.
