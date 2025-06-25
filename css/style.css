@@ -4,6 +4,11 @@
 
 /* white-space: nowrap; se usa para que el texto no se corte ni baje de línea, aunque sea muy largo. Todo queda en una sola línea. */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -157,10 +162,3 @@ footer p {
 .precio {
     color: #FE5D26;
 }
-
-
-
-
-
-
-
