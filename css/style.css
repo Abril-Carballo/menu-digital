@@ -119,12 +119,13 @@ footer p {
 .vuelta {
     text-decoration: none;
     color: black;
+    font-size: 18px;
 }
 
 .titulo_paginas {
     font-family: 'Dancing Script', cursive;
     padding: 10px;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 /* DISENIO DE PLATOS */
