@@ -63,8 +63,9 @@ main h1 { /* titulo menu */
     font-family: "Dancing Script", cursive;
     padding: 10px;
     font-size: 40px;
-    margin-left: 20px;
-    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
 }
 
 main hr { /* linea */
@@ -75,10 +76,13 @@ main hr { /* linea */
 main p{ /* Seleccion de paginas */
     margin: 10px;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
     margin: 10px;
+    
 }
 
 nav a{ /* opciones de platos */
@@ -87,6 +91,8 @@ nav a{ /* opciones de platos */
     line-height: 40px;
     padding-left: 25px;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 nav b{
